@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Holiday Tours</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 250px;
+        }
+
+        header .header-content {
+            flex: 1;
+            text-align: center;
+            margin: 0;
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 40px;
+        }
+
+        header .tagline {
+            font-size: 20px;
+            color: brown;
+        }
+
+        nav {
+            text-align: left;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .left-section, .right-section {
+            flex: 1;
+            margin: 0 10px;
+            position: relative;
+        }
+
+        .center-section {
+            flex: 2;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .left-section img, .right-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .image-overlay {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .center-section img {
+            position: relative;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/free-photo/3d-icon-travel-with-airplane_23-2151037426.jpg?ga=GA1.1.384881976.1698337878&semt=ais_hybrid" alt="Site Logo">
+        <div class="header-content">
+            <h1>Let us plan you a <br> perfect <span style="color: orange;"> Holiday Tour</span></h1>
+            <p class="tagline">Your gateway to <span class="highlight">unforgettable adventures</span> and dream destinations!</p>
+        </div>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="hotels.html">Hotels</a>
+        <a href="destinations.html">Destinations</a>
+    </nav>
+    <div class="main-content">
+        <div class="left-section">
+            <div style="position: relative;">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/agra/mmt/activities/m_activities-agra-taj-mahal_l_400_640.jpg" alt="Taj Mahal">
+                <div class="image-overlay">Taj Mahal, Agra</div>
+            </div>
+            <div style="position: relative;">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/jaipur/mmt/activities/m_activities-jaipur-hawa-mahal_l_400_640.jpg" alt="Hawa Mahal">
+                <div class="image-overlay">Hawa Mahal, Jaipur</div>
+            </div>
+        </div>
+        <div class="center-section">
+            <img src="https://img.freepik.com/free-photo/wooden-bridge-koh-nangyuan-island-surat-thani-thailand_335224-1082.jpg?ga=GA1.1.384881976.1698337878&semt=ais_hybrid" alt="Center Image">
+
+            <p>Embark on a journey filled with awe-inspiring landscapes, rich cultures, and unforgettable memories. Whether you're looking for serene beaches, majestic mountains, or vibrant cities, we bring the world closer to you.</p>
+        </div>
+        <div class="right-section">
+            <div style="position: relative;">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/aurangabad/mmt/activities/m_activities_aurangabad_ellora_caves_l_376_564.jpg" alt="Ellora Caves">
+                <div class="image-overlay">Ellora Caves, Aurangabad</div>
+            </div>
+            <div style="position: relative;">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/mathura/mmt/activities/m_activities_mathura_prem_mandir_l_311_640.jpg" alt="Prem Mandir">
+                <div class="image-overlay">Prem Mandir, Mathura</div>
+            </div>
+        </div>
+    </div>      
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: pushpendrasingh4286@gmail.com</p>
+        <p>Phone: 7900558188 </p>
+        <p>Address: Mathura (U.P)</p>
+        <p>&copy; Holiday Tours. All rights reserved.</p>
+    </footer>
+</body>
+</html>

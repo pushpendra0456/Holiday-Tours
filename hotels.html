@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Tours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .hotel-section {
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .hotel-section h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .hotel-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hotel-card {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+            background-color: white;
+            transition: transform 0.3s ease-in-out;
+            margin-bottom: 20px;
+        }
+
+        .hotel-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .hotel-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .hotel-info {
+            padding: 20px;
+            background-color: #fff;
+            text-align: left;
+        }
+
+        .hotel-info h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .hotel-info p {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #ff7f00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #e67e00;
+        }
+    </style>
+</head>
+<body>
+    <div class="hotel-section">
+        <h2>Our Featured Hotels</h2>
+        <div class="hotel-container">
+            <div class="hotel-card">
+                <img src="https://robbreport.com/wp-content/uploads/2023/04/Dravuni-Residence-Pool-.jpg" alt="Hotel 1">
+                <div class="hotel-info">
+                    <h3>Luxury Beach Resort</h3>
+                    <p>Located on the stunning coastline with beautiful ocean views.</p>
+                    <a href="#hotel1.html" class="button">Explore</a>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA9n6KPRwcohLUehOFtEsVLkJemh9AEqMrZw&s" alt="Hotel 2">
+                <div class="hotel-info">
+                    <h3>Mountain Retreat</h3>
+                    <p>Enjoy the serene beauty of the mountains with premium amenities.</p>
+                    <a href="#hotel2.html" class="button">Explore</a>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="https://www.kayak.co.in/rimg/himg/25/52/cc/ice-128243-109102183-773387.jpg?width=1366&height=768&crop=true" alt="Hotel 3">
+                <div class="hotel-info">
+                    <h3>City Center Hotel</h3>
+                    <p>Perfectly located in the heart of the city for business and leisure.</p>
+                    <a href="#hotel3.html" class="button">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
